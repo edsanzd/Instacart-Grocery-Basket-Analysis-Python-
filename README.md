@@ -1,69 +1,64 @@
-# Instacart Grocery Basket Analysis (Python)
-Instacart, an online grocery store
-that operates through an app. Instacart already has very good sales, but they
-want to uncover more information about their sales patterns.
+# 🛒 Instacart Grocery Basket Analysis
 
-## Objective
-Perform an initial data and exploratory analysis of some of their data in order
-to derive insights and suggest strategies for better segmentation based on
-the provided criteria. The Instacart stakeholders are most interested in the variety of customers in their database
-along with their purchasing behaviors. they want to target different customers with applicable marketing campaigns to see whether they have an effect
-on the sale of their products.
+This project explores customer purchasing behavior on Instacart, a leading on-demand grocery delivery platform. Using a real-world dataset provided by Instacart, the goal is to uncover shopping patterns, segment users, and generate actionable insights for marketing and retention strategies.
 
-### Context
-The analysis will inform what this strategy might look like to ensure Instacart targets the right customer profiles with the appropriate products
+---
 
-## Key Questions
-● The busiest days of the week and hours of the day are in order to schedule ads at
-times when there are fewer orders.
+## 📦 Project Objectives
 
-● particular times of the day when people spend the most money.
+- Clean and prepare a large-scale grocery transaction dataset
+- Analyze purchasing habits by hour, day, department, and frequency
+- Identify customer segments based on behavioral patterns
+- Create visualizations to communicate insights clearly
+- Deliver stakeholder-friendly outputs
 
-● Marketing and sales want to use simpler price range groupings to help direct their efforts.
+---
 
-● Which departments have the highest frequency of product orders.
+## 📁 Repository Structure
 
-● The marketing and sales teams are particularly interested in the different types of
-customers in their system and how their ordering behaviors differ:
+| Folder                  | Description |
+|-------------------------|-------------|
+| `01_Project_Management` | Planning, objectives, and client brief |
+| `02_Data`               | Raw dataset and data dictionary |
+| `03_Scripts`            | Data cleaning, feature engineering, and analysis scripts |
+| `04_Analysis_Visualizations` | Key charts and visualizations |
+| `05_Sent_to_Client`     | Final deliverables in accessible formats |
 
-○ What’s the distribution among users in regards to their brand loyalty
+---
 
-○ Are there differences in ordering habits based on a customer’s loyalty status?
+## 🧪 Tools & Technologies
 
-○ Are there differences in ordering habits based on a customer’s region?
+- **Python** (Pandas, NumPy, Seaborn, Matplotlib)
+- **Jupyter Notebook**
+- **Excel** (for client-facing outputs)
+- **Instacart Dataset** (over 3 million orders)
 
-○ Is there a connection between age and family status in terms of ordering
-habits?
+---
 
-○ What different classifications does the demographic information suggest? 
+## 📊 Key Insights
 
-○ What differences can you find in ordering habits of different customer
-profiles?
+- Users tend to shop more on Sunday mornings
+- The fruit department is most popular in first-time orders
+- Frequent customers show strong product repetition
+- Most orders are placed between 10:00 AM and 2:00 PM
 
-## Data
-“The Instacart Online Grocery Shopping Dataset 2017”, Accessed from www.instacart.com/datasets/grocery-shopping-2017
-via Kaggle on <date>. Instacart is a real company that’s made their data available online. However, the contents of this project brief
-have been fabricated for the purpose of this Achievement, and provided for CareerFoundry Institute. with the next Data Sets:
+---
 
-Customers
+## 🚀 Next Steps
 
-Departments
+- [ ] Build a model to predict next product purchase
+- [ ] Develop an interactive dashboard using Streamlit
+- [ ] Add cohort and retention analysis
+- [ ] Include personalized recommendations by segment
 
-Orders
+---
 
-Orders_products_prior
+## 📌 Credits
 
-Products
+This project was developed as part of my data analytics training. The dataset was provided by Instacart via [The Data Incubator](https://www.instacart.com/datasets/grocery-shopping-2017).
 
-## Folders
-### The project is divided into the following folders:
+---
 
-Analysis: The visualizations used for developing and explaining insights.
+## 📫 Contact
 
-Project Management: Project Brief and Instacart Grocery Data Dictionary
-
-Scripts: The Jupyter notebooks containing the coding for the analysis.
-
-Sent to Client: The final report presented in Excel
-
-
+If you're interested in collaborating, improving this analysis, or discussing similar ideas, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/eduardosanzd/) or open an issue in this repository.
