@@ -35,6 +35,36 @@ This project analyzes customer purchasing behavior on Instacart, a leading on-de
 
 ---
 
+## 📈 Data Pipeline Overview
+
+The following flowchart illustrates the data processing stages in the Instacart Grocery Basket Analysis project. It shows how raw datasets were cleaned and merged to form enriched tables for analysis.
+
+![Population Flow](05_Client/POPULATION_FLOW.png)
+
+### 🔍 Stages represented in the diagram:
+
+- **Orders**  
+  - Original: 3,421,083 rows  
+  - After consistency checks: 3,421,083 rows
+
+- **Orders_products_prior**  
+  - Original: 32,434,489 rows  
+  - After consistency checks: 32,434,489 rows
+
+- **Products**  
+  - Original: 49,693 rows  
+  - After consistency checks: 49,672 rows
+
+- **Customers**  
+  - Original and validated: 206,209 rows
+
+- **Merged datasets**  
+  - `Orders_products_combined`: 32,434,489 rows  
+  - `Orders_products_merged`: 32,404,859 rows  
+  - `Orders_products_all`: 32,404,859 rows
+
+This visual summary helps communicate the integrity and structure of the data pipeline used throughout the project.
+
 ## 📊 Key Insights
 
 - Users tend to shop more during weekend mornings
