@@ -55,7 +55,8 @@ This project explores customer purchasing behavior on Instacart, a leading on-de
 
 ## 📌 Credits
 
-This project was developed as part of my data analytics training. The dataset was provided by Instacart via [The Data Incubator](https://www.instacart.com/datasets/grocery-shopping-2017).
+The dataset used in this project was originally provided by Instacart and distributed through my data analytics training program. It contains over **34 million records**, including customer orders, product details, and departmental information. All analysis, cleaning, and insights were performed independently as part of my learning journey.
+> This project is for educational purposes only. It does not represent Instacart or its business operations.
 
 ---
 
